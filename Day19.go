@@ -29,7 +29,7 @@ type StockSpanner struct {
 	span  []int
 }
 
-func Constructor() StockSpanner {
+func constructor() StockSpanner {
 	return StockSpanner{}
 }
 
